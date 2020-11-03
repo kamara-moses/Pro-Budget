@@ -1,0 +1,29 @@
+{
+    "name": "pro-budget",
+    "version": "1.0.0",
+    "description": "The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kamara-moses/Pro-Budget.git"
+    },
+    "author": "Moses Kamara",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kamara-moses/Pro-Budget/issues"
+    },
+    "homepage": "https://github.com/kamara-moses/Pro-Budget#readme",
+    "dependencies": {
+        "compression": "^1.7.4",
+        "express": "^4.17.1",
+        "mongoose": "^5.10.11",
+        "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
