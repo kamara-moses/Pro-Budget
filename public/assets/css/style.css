@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-size: 120%;
     font-family: Arial;
@@ -7,6 +11,14 @@ button,
 input {
     font-size: 100%;
     font-family: Arial;
+}
+
+#add-btn {
+    color: lightgreen;
+}
+
+#sub-btn {
+    color: red;
 }
 
 table {
